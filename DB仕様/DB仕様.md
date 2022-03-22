@@ -14,3 +14,5 @@
   * USERS
   * DETAIL
   * PAYMENT
+  * CATEGORY
+  * 
