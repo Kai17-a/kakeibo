@@ -12,6 +12,4 @@
 | user_id | ○ | ○ | - | int | ユーザー紐づけの番号 |
 | user_name | - | ○ | - | varchar |ユーザー名 |
 | user_password | - | - | - | varchar | ユーザーパスワード |
-| version_number | - | - | - | int | 楽観排他用バージョン番号 |
-
-
+| login_date | - | - | - | date | 2重ログイン防止用カラム |

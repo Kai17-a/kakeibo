@@ -10,7 +10,8 @@
 
 | field | PK | unique | isNULL | type | description |
 | :-- | :-: | :-: | :-: | :-: | :-- |
+| payment_id | ○ | - | - | char(2) | 支払い番号 |
 | payment_code | ○ | - | - | char(2) | 支払い方法 |
-| payment | - | - | - | varchar | 支払い方法名称 |
+| payment_name | - | - | - | varchar | 支払い方法名称 |
 | user_id | ○ | - | - | int | ユーザー紐づけの番号 |
-| version_number | - | - | - | int | 楽観排他用バージョン番号 |
+| desctiption | - | - | ○ | varchar | 支払方法の説明 |
